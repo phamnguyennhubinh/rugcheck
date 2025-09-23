@@ -1,0 +1,5 @@
+---
+'rugcheck': patch
+---
+
+Initial release
