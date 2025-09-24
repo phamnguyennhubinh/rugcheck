@@ -1,0 +1,3 @@
+# Mark Husky scripts as vendored to exclude from language statistics
+.husky/* linguist-vendored=true
+.husky/**/* linguist-vendored=true
