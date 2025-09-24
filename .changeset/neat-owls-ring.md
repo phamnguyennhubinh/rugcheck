@@ -1,5 +1,0 @@
----
-'rugcheck': patch
----
-
-Update package

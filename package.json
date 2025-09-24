@@ -1,6 +1,6 @@
 {
   "name": "rugcheck",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A demo project for the RugCheck",
   "type": "module",
   "main": "dist/index.js",
