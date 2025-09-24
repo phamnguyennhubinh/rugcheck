@@ -5,3 +5,9 @@
 # Mark generated files as generated to exclude from language statistics
 dist/* linguist-generated=true
 dist/**/* linguist-generated=true
+
+# Mark other generated JS files
+*.js linguist-language=TypeScript
+*.d.ts linguist-generated=true
+*.d.ts.map linguist-generated=true
+*.js.map linguist-generated=true
