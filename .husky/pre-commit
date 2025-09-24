@@ -7,14 +7,19 @@ echo "║                📝 RUNNING PRE-COMMIT HOOKS                   ║"
 echo "╚═══════════════════════════════════════════════════════════════╝"
 echo ""
 
-echo "🔍 Running code linting (bun run lint)..."
-bun run lint
+echo "🔍 Running code linting..."
+npm run lint
 echo "✅ Linting complete!"
 echo ""
 
-echo "💅 Formatting code (bun run format)..."
-bun run format
-echo "✅ Formatting complete!"
+echo "💅 Checking code format..."
+npm run check-format
+echo "✅ Format check complete!"
+echo ""
+
+echo "🧪 Running tests..."
+npm run test
+echo "✅ Tests complete!"
 echo ""
 
 echo "╔═══════════════════════════════════════════════════════════════╗"
