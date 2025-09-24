@@ -1,9 +1,10 @@
 {
   "name": "rugcheck",
   "version": "1.0.1",
-  "description": "",
+  "description": "A demo project for the RugCheck",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
     "test": "vitest run",
     "build": "tsc",
@@ -16,8 +17,16 @@
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamnguyennhubinh/rugcheck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phamnguyennhubinh/rugcheck/issues"
+  },
+  "homepage": "https://github.com/phamnguyennhubinh/rugcheck",
+  "keywords": ["rugcheck", "rugcheck-demo"],
+  "author": "RugCheck",
   "license": "ISC",
   "devDependencies": {
     "@changesets/cli": "^2.29.7",
